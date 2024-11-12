@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap install -->
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-awesome install -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- Nav bar start -->
+    <div class="container-lg col-md-12">
+      <nav class="navbar shadow-sm sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg mx-5 ">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-danger" href="">My Portfolio</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-danger" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-danger" aria-disabled="true" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-danger" aria-disabled="true" href="#latestprojects">Freelancer Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-danger" aria-disabled="true" href="#members">Members</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-danger" aria-disabled="true" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-primary" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Profile Start -->
+    <div class="container-lg" id="home">
+      <div class="row mt-3 bg-body-tertiary">
+        <div class="col-lg-6 text-center">
+          <img width="100%"
+          class="col-6 my-md-4"
+            src="./WT_Portfolio_2.png"
+          />
+        </div>
+
+        <div class="col-lg-6">
+            <p class="text-muted mt-3">Hello</p>
+            <h1 class="text-danger text-uppercase">Web Developer</h1>
+            <h4 class="text-black">Win Thu</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellat voluptatum a aliquam! Vero eum maiores consequuntur voluptatem eaque. Exercitationem est tempora id illo eveniet asperiores? Aut iste ullam minima?</p>
+            <button class="btn btn-danger btn-shadow-lg">My CV</button>
+          </div>
+
+      </div>
+    </div>
+    <!-- Profile End -->
+
+    <!-- About Me Start -->
+    <div class="container-lg py-3" id="aboutme">
+      <div class="row mb-3">
+        <h3 class="text-center mt-5 mb-3">About Me</h3>
+      </div>
+      <div class="row mx-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <h3 class="">Freelancer</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non alias culpa repellat, nesciunt voluptatem in, nisi reprehenderit accusamus iusto vel praesentium similique excepturi voluptas omnis, illum quod est debitis!</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="text-center fw-bold">100+</h2>
+              <p class="text-muted text-center">Project Completed</p>
+            </div>
+            <div class="col-md-4">
+              <h2 class="text-center fw-bold">100+</h2>
+              <p class="text-muted text-center">Happy Clients</p>
+            </div>
+            <div class="col-md-4">
+              <h2 class="text-center fw-bold">95+</h2>
+              <p class="text-muted text-center">Positive Reviews</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <a href="#" class="btn btn-danger btn-outline-light shadow-sm me-2">Download CV</a>
+              <a href="#" style="color: darkblue;">
+                <i class="fa-brands fa-facebook me-2"></i>
+              </a>
+              <a href="#" style="color: red;">
+                <i class="fa-brands fa-instagram me-2"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter me-2"></i>
+              </a>
+              <a href="#" style="color: purple;">
+                <i class="fa-brands fa-viber"></i>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <p class="mt-3">HTML</p>
+          <div class="progress mb-3" style="height: 5px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 75%;"></div>
+          </div>
+          <p class="mt-3">CSS</p>
+          <div class="progress mb-3" style="height: 5px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 60%;"></div>
+          </div>
+          <p class="mt-3">Java Script</p>
+          <div class="progress mb-3" style="height: 5px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 35%;"></div>
+          </div>
+          <p class="mt-3">Bootstrap</p>
+          <div class="progress mb-3" style="height: 5px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 80%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- About End -->
+
+     <!-- What I do start -->
+    <div id="">
+      <div class="container-lg">
+        <div class="row py-4">
+          <h3 class="fw-bold text-center">What I do ?</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <div class="text-danger fs-3"><i class="fa-solid fa-code"></i></div>
+            <h5 class="py-2">Web Development</h5>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit beatae laudantium saepe veniam temporibus accusamus nemo excepturi cupiditate! Iste dolore eos optio sed at nobis iure sint hic earum modi?</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="text-danger fs-3"><i class="fa-solid fa-lightbulb"></i></div>
+            <h5 class="py-2">Creative Idea</h5>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis optio dolorem est, labore distinctio, omnis voluptates, assumenda earum quam dignissimos odit aliquam exercitationem blanditiis culpa. Doloribus ipsum quia placeat veritatis.</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="text-danger fs-3"><i class="fa-solid fa-image"></i></div>
+            <h5 class="py-2">Photoshop</h5>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, dolore voluptate et quibusdam iste neque nemo veritatis id, sapiente alias repellat sed porro nam necessitatibus ab repellendus! Aliquid, facilis cupiditate!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- What I do end -->
+
+    <!-- Latest Projects start -->
+    <div class="class" id="latestprojects">
+      <div class="container-lg mb-3">
+        <div class="row">
+          <h3 class="fw-bold text-center p-3">Latest Projects</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 shadow-sm">
+            <img src="#" class="img-thumbnail">
+            <h5 class="">Admin Dashboard</h5>
+            <a href="#" class="text-decoration-none" style="color: red;">Live Demo</a>
+          </div>
+          <div class="col-lg-4 shadow-sm">
+            <img src="#" class="img-thumbnail">
+            <h5 class="">Team Selection</h5>
+            <a href="#" class="text-decoration-none" style="color: red;">Live Demo</a>
+          </div>
+          <div class="col-lg-4 shadow-sm">
+            <img src="#" class="img-thumbnail">
+            <h5 class="">Creative Team Dashboard</h5>
+            <a href="#" class="text-decoration-none" style="color: red;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Latest Projects end -->
+
+    <!-- Do You have any Projects -->
+    <div class="bg-danger mt-5" id="portfolio">
+      <div class="container-lg">
+        <div class="row" style="height: 200px;">
+          <div class="col-lg-12">
+            <p class="text-center text-light mb-3 mt-3">Do you have any projects?</p>
+          <h3 class="text-center text-light mb-3">I'm Availble for Freelancer Projects</h3>
+          <a href="#" class="col-lg-2 mb-5 offset-5 text-center btn btn-outline-light">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Do You have any Projects end-->
+
+    <!-- Team Members -->
+    <div class="mb-3" id="members">
+      <div class="container-lg">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-12 mb-5">
+              <h3 class="mt-5 text-center">Our Team Members</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-sm-12 bg-light align-content-center">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active text-bg-danger " aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="text-bg-danger "></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="text-bg-danger "></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container-lg">
+                      <div class="row">
+                        <div class="d-flex">
+                          <div class="">
+                            <img src="#" class="rounded rounded-circle me-3" style="width: 100px;">
+                          </div>
+                          <div class="">
+                            <h5 class="mt-3">Kyaw Kyaw</h5>
+                          <p class="text-muted">Senior Web Developer</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="row">
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non porro dolores reiciendis neque voluptates magnam commodi, recusandae expedita aperiam necessitatibus perferendis, laboriosam, tenetur qui veniam adipisci dignissimos vero alias?</p>
+                      </div>
+                      <div class="row">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-lg">
+                      <div class="row">
+                        <div class="d-flex">
+                          <div class="">
+                            <img src="#" class="rounded rounded-circle me-3" style="width: 100px;">
+                          </div>
+                          <div class="">
+                            <h5 class="mt-3">Soe Soe</h5>
+                          <p class="text-muted">Senior Web Developer</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="row">
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non porro dolores reiciendis neque voluptates magnam commodi, recusandae expedita aperiam necessitatibus perferendis, laboriosam, tenetur qui veniam adipisci dignissimos vero alias?</p>
+                      </div>
+                      <div class="row">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-lg">
+                      <div class="row">
+                        <div class="d-flex">
+                          <div class="">
+                            <img src="#" class="rounded rounded-circle me-3" style="width: 100px;">
+                          </div>
+                          <div class="">
+                            <h5 class="mt-3">Aung Aung</h5>
+                          <p class="text-muted">Senior Web Developer</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="row">
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non porro dolores reiciendis neque voluptates magnam commodi, recusandae expedita aperiam necessitatibus perferendis, laboriosam, tenetur qui veniam adipisci dignissimos vero alias?</p>
+                      </div>
+                      <div class="row">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                          <i class="fa-solid fa-star text-danger"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon text-warning" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team members end -->
+
+    <!-- contact me -->
+    <div id="contact">
+      <div class="container-lg my-3">
+        <div class="row">
+          <div class="col-lg">
+            <h3 class="text-center">Contact me</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 offset-1">
+            <div class="row">
+              <div class="">
+                <div class="d-flex">
+                  <i class="fa-solid fa-phone fs-3 text-danger mx-2"></i>
+                  <div class="">
+                    <h4 class>Phone</h4>
+                  <p class="text-muted">+626654689</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <div class="d-flex">
+                  <i class="fa-solid fa-envelope text-danger mx-2 fs-3"></i>
+                  <div class="">
+                    <h4 class>Email</h4>
+                  <p class="text-muted">winthu96@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <div class="d-flex">
+                  <i class="fa-solid fa-map-location-dot text-danger mx-2 fs-3"></i>
+                  <div class="">
+                    <h4 class>Address</h4>
+                  <p class="text-muted">Hua Mak, BangKapi, BangKok, Thailand</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <div class="form-control">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input  type="text" class="form-control my-2" placeholder="Your Name">
+                  </div>
+                  <div class="col-lg-6">
+                    <input  type="text" class="form-control my-2" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control my-2" placeholder="Subject">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <textarea name="" placeholder="Your message" id="" class="form-control my-2" style="height: 200px;"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="">
+                    <button class="btn text-white bg-danger">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row"></div>
+      </div>
+    </div>
+    <!-- contact me end -->
+
+    <!-- conclusion -->
+    <div class="container-lg">
+      <div class="row mt-2">
+        <div class="">
+          <p class="text-muted text-center">We Learn, We Share, We Code | This Lab is for all coders</p>
+        </div>
+      </div>
+    </div>
+    <!-- conclusion end-->
+
+  </body>
+  <!-- bootstrap JS install -->
+  <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
